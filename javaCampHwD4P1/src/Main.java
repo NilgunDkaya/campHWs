@@ -19,8 +19,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		Customer customer1 = new Customer(1,"Engin","Demiroğ",new Date(1985,1,6),"31634390762");
-		Customer customer2 = new Customer(2,"Nilgün","Demirkaya",new Date(1996,10,5) ,"15896512685");
+		Customer customer1 = new Customer(1,"Engin","DemiroÃ°",new Date(1985,1,6),"12345678910");
+		Customer customer2 = new Customer(2,"NilgÃ¼n","Demirkaya",new Date(1996,10,5) ,"10987654321");
 
 		BaseCustomerManager neroCustomerManager = new NeroCustomerManager(new CustomerCheckManager());
 		neroCustomerManager.save(customer1);
